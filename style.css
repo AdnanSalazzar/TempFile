@@ -1,0 +1,49 @@
+body {
+    background-color: #433878;
+}
+
+/* 
+* :not(table){
+    color: #E4B1F0;
+} 
+*/
+
+.sidebar{
+    color: #E4B1F0 !important;
+}
+
+.navbar {
+    background-color: #282148 !important;
+    color:#E4B1F0 !important;
+}
+
+
+.sidebar-title {
+    color: #e4b1f0;              /* Text color */
+    font-size: 1.25rem;          /* Font size */
+    font-weight: bold;           /* Bold text */
+    padding: 10px 0;             /* Padding top and bottom */
+    border-bottom: 2px solid #4CAF50;  /* Bottom border */
+    margin-bottom: 15px;         /* Space below the title */
+    text-transform: uppercase;    /* Optional: makes text uppercase */
+}
+
+
+/* Style for the entire sidebar */
+.shiny-html-sidebar {
+    background-color: #f8f9fa;   /* Light background for the sidebar */
+    border-right: 1px solid #dee2e6;  /* Right border */
+    padding: 15px;               /* Padding inside sidebar */
+}
+
+/* If you want to style the selectize input as well */
+.selectize-input {
+    border-radius: 4px;          /* Rounded corners */
+    border: 1px solid #ced4da;   /* Border color */
+    background-color: white;     /* Input background */
+}
+
+.selectize-input.focus {
+    border-color: #4CAF50;       /* Border color when focused */
+    box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.25);  /* Focus shadow */
+}
